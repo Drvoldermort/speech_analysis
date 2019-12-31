@@ -11,8 +11,8 @@ def get_tone_score(request):
         def toneanalyzer(data):
             tone_analyzer = ToneAnalyzerV3(
                 version ='2017-09-21',
-                username ='75302330-4d62-4e21-80b2-da038310d5d3',
-                password ='Y85VmxzcFojj'
+                username ='your_username',
+                password ='your_password'
                 )
             text = data
             content_type = 'application/json'
